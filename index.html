@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/tiny-slider/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+</head>
+<body class="bg-body-secondary">
+    <!-- navbar [START] -->
+    <nav class="navbar navbar-scroll navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fs-4 fw-bold" href="#" aria-current="page">FURNITURE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Search START -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 w-100 justify-content-center gap-3">
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="btn btn-primary border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="d-flex align-items-center"><span>Categories</span></i></span>   
+                            </button>
+                            <ul class="dropdown-menu mt-2 border-0">
+                                <li><a class="dropdown-item" href="#">Chair</a></li>
+                                <li><a class="dropdown-item" href="#">Cabinet</a></li>
+                                <li><a class="dropdown-item" href="#">Table</a></li>
+                                <li><a class="dropdown-item" href="#">Lamp</a></li>
+                                <li><a class="dropdown-item" href="#">sofas</a></li>
+                                <li><a class="dropdown-item" href="#">textile</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item w-40">
+                        <form class="d-flex search position-relative" role="search">
+                            <div class="position-relative w-100">
+                                <input type="text" class="form-control pe-5" placeholder="Search product..." aria-label="Search product ..." aria-describedby="basic-addon2">
+                                <a class="nav-link position-absolute top-50 end-0 me-1 translate-middle-y" href="#" role="button"><i class="bi bi-search"></i></a>
+                                <div class="search-card card position-absolute mt-2 rounded-1 top-100 w-100 border-0 shadow-sm">
+                                    <div class="card-body p-0">
+                                        <ul class="dropdown-menu border-0 show w-100">
+                                            <li><a class="dropdown-item" href="#">Action</a></li>
+                                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+                 <!-- Search END -->
+            </div>
+            <div class="ms-auto d-flex gap-4">
+                <div class="">
+                    <button type="button" class="btn border-0 btn-light bg-transparent fs-5 p-1 position-relative">
+                        <i class="bi bi-brightness-high"></i>
+                        <!-- <i class="bi bi-brightness-high-fill"></i> -->
+                    </button>
+                    <button type="button" class="btn border-0 btn-light bg-transparent fs-5 p-1 position-relative">
+                        <i class="bi bi-bell"></i>
+                        <span class="position-absolute top-0 end-0 badge rounded-circle bg-danger p-1 mt-2">
+                        <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                    <button type="button" class="btn border-0 btn-light bg-transparent fs-5 p-1 position-relative">
+                        <i class="bi bi-cart4"></i>
+                        <span class="position-absolute top-0 end-0 badge rounded-circle bg-danger p-1 mt-2">
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </button>
+                </div>
+                <div class="d-flex gap-3">
+                    <a class="btn btn-warning rounded-bottom-right px-4" role="button" href="login.html" target="_blank">Sign in</a>
+                    <a class="btn btn-primary rounded-top-right px-4" role="button" href="register.html" target="_blank">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+     <!-- navbar [END] -->
+    <!-- main -->
+    <main>
+        <!-- Banner START -->
+        <section class="section-banner min-vh-100">
+            <div class="container vh-100 bg-banner">
+                <div class="row align-items-center vh-100">
+                    <div class="col-6">
+                        <div class="banner-title">
+                            <span class="badge letter-spac text-secondary"><span class="p-1 d-inline-block bg-success rounded-circle"></span> WELCOME TO OUR</span>
+                            <h1 class="display-3 fw-semibold mt-4">HIGH QUALITY <span class="text-warning">FURNITURE</span></h1>
+                            <p class="text-secondary lead mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, corporis? Lorem ipsum dolor sit amet consectetur</p> 
+                        </div>
+                    </div>
+                    <div class=" col-md-6 col-xl-5 offset-xl-1">
+                        <div class="vh-100">
+                            <div class="banner-img h-100">
+                                <div class="row align-items-center align-content-stretch h-100">
+                                    <div class="col-4 h-100">
+                                        <div class="d-flex flex-column gap-3 justify-content-end h-100">
+                                            <img class="img-fluid h-60 object-fit-cover rounded-pill mt-5 shadow" src="assets/image/banner/farhad-1.jpg" alt="">
+                                            <img class="img-fluid h-40 object-fit-cover rounded-top-pill shadow" src="assets/image/banner/eugene-2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-4 h-100">
+                                        <div class="d-flex flex-column gap-3 justify-content-start h-100">
+                                            <img class="img-fluid h-40 object-fit-cover rounded-bottom-pill shadow" src="assets/image/banner/hutomo-3.jpg" alt="">
+                                            <img class="img-fluid h-60 object-fit-cover rounded-pill shadow" src="assets/image/banner/sarah-4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-4 h-100">
+                                        <div class="d-flex flex-column gap-3 justify-content-end h-100">
+                                            <img class="img-fluid h-75 object-fit-cover rounded-pill mt-7 shadow" src="assets/image/banner/daniil-5.jpg" alt="">
+                                            <img class="img-fluid h-25 object-fit-cover rounded-top-pill shadow" src="assets/image/banner/ruslan-6.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner END -->
+        <!-- popular-categories START-->
+        <section class="popular-categories py-6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="header-title my-5">
+                            <h3 class="text-dark fw-bold">Shop Popular Categories</h3>
+                        </div>
+                        <div class="body-categories">
+                            <div class="row align-items-stretch">
+                                <div class="col-3">
+                                    <div class="card border-0 position-relative bg-transparent">
+                                        <a href="#" class="nav-link z-3">
+                                            <div class="card-body pt-5">
+                                                <h4 class="fw-semibold text-center">Chair</h4>
+                                                <img class="img-fluid" src="assets/image/popular/chair.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card border-0 position-relative bg-transparent h-100">
+                                        <a href="#" class="nav-link z-3">
+                                            <div class="card-body pt-5">
+                                                <h4 class="fw-semibold text-center">Cabinet</h4>
+                                                <img class="img-fluid" src="assets/image/popular/cabinet.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card border-0 position-relative bg-transparent">
+                                        <a href="#" class="nav-link z-3">
+                                            <div class="card-body pt-5">
+                                                <h4 class="fw-semibold text-center">Table</h4>
+                                                <img class="img-fluid" src="assets/image/popular/pngtree.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <div class="card border-0 position-relative bg-transparent">
+                                        <a href="#" class="nav-link z-3">
+                                            <div class="card-body pt-5">
+                                                <h4 class="fw-semibold text-center">Lamp</h4>
+                                                <img class="img-fluid" src="assets/image/popular/lamp.png" alt="">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- popular-categories [END] -->
+        <!-- Discount-block [START]  -->
+        <section class="discount-blog py-6">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-12">
+                        <div class="header-title my-5">
+                            <h3 class="text-dark fw-semibold">Discount Blog</h3>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="card position-relative overflow-hidden">
+                                    <div class="card-body z-3 p-5">
+                                        <div class="p-6 d-flex flex-column gap-2 align-items-center bg-light-blur">
+                                            <span class="fs-6 fw-semibold text-light">20 % OFF ALL ORDER</span>
+                                            <h1 class="display-5 fw-semibold text-light">Living Room</h1>
+                                            <button class="btn btn-warning rounded-pill px-4">BUY NOW</button>
+                                        </div>
+                                    </div>
+                                    <img class="card-bg img-fluid position-absolute top-0 start-0" src="assets/image/product-set/living-room.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card position-relative overflow-hidden">
+                                    <div class="card-body z-3 p-5">
+                                        <div class="p-6 d-flex flex-column gap-2 align-items-center bg-light-blur">
+                                            <span class="fs-6 fw-semibold text-light">40 % OFF ALL ORDER</span>
+                                            <h1 class="display-5 fw-semibold text-light">Dining Room</h1>
+                                            <button class="btn btn-warning rounded-pill px-4">BUY NOW</button>
+                                        </div>
+                                    </div>
+                                    <img class="card-bg img-fluid position-absolute top-0 start-0" src="assets/image/product-set/chair.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="slide-section position-relative">
+                            <!-- Prev Next tab -->
+                            <ul class="nav justify-content-end gap-2 my-4" id="custom-control">
+                                <li class="nav-item prev">
+                                    <button class="btn btn-primary" type="button"><i class="bi bi-chevron-left"></i></button>
+                                </li>
+                                <li class="nav-item next">
+                                    <button class="btn btn-primary" type="button"><i class="bi bi-chevron-right"></i></button>
+                                </li>
+                            </ul>
+                            <!-- Prev Next tab -->
+                            <ul class="my-slider list-unstyled">
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-dark position-absolute p-2 m-3">HOT</span>
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid" src="assets/image/discount/cover-1.png" alt="">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-dark position-absolute p-2 m-3">HOT</span>
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid" src="assets/image/discount/cover-2.png" alt="">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid" src="assets/image/discount/cover-3.png" alt="">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid" src="assets/image/discount/cover-4.png" alt="">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-dark position-absolute p-2 m-3">HOT</span>
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid" src="assets/image/discount/cover-5.png" alt="">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="slide-item">
+                                    <div class="card border-0 bg-light">
+                                        <span class="badge text-bg-danger position-absolute p-2 m-3 end-0">-30%</span>
+                                        <img class="img-fluid z-3" src="assets/image/discount/lamp/cover-1.png" alt="">
+                                        <div class="card-body text-center z-3">
+                                            <h5 class="card-title h4">
+                                                <a class="nav-link fw-semibold" href="#">MARAROLA</a> 
+                                            </h5>
+                                            <div class=" mt-3">
+                                                <p class="card-text small text-clamp-2">
+                                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda, nesciunt!
+                                                </p>
+                                                <p class="small">Price : <span class="text-decoration-line-through text-danger-emphasis">$250</span> <span class="text-danger fs-5 ms-2">$200</span></p>
+                                            </div>
+                                            <div class="row align-items-center mt-4">
+                                                <div class="col">
+                                                    <div class="d-flex align-items-center count">
+                                                        <button class="btn btn-sm" id="decrement"><i class="bi bi-chevron-down"></i></button>
+                                                        <input class="form-control text-center border-0" type="text" value="1" id="quantity" />
+                                                        <button class="btn btn-sm" id="increment"><i class="bi bi-chevron-up"></i></button>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <a href="#" class="btn btn-sm btn-warning rounded-pill px-3 fw-semibold">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Discount-block [END]  -->
+        <!-- Customer-Care [START] -->
+        <section class="section-fqa py-6 bg-body">
+            <div class="container">
+                <div class="row g-0">
+                    <div class="col-3">
+                        <div class="card border-0 h-100 bg-transparent">
+                            <div class="card-body text-center">
+                                <h1 class="display-3 text-secondary-emphasis"><i class="bi bi-truck"></i></h1>
+                                <span class="fs-5 fw-medium text-light-emphasis">Free Shipping Over $50</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card border-0 h-100 bg-transparent">
+                            <div class="card-body text-center">
+                                <h1 class="display-3 text-secondary-emphasis"><i class="bi bi-check2-circle"></i></i></h1>
+                                <span class="fs-5 fw-medium text-light-emphasis">Quality Assurance</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card border-0 h-100 bg-transparent"> 
+                            <div class="card-body text-center">
+                                <h1 class="display-3 text-secondary-emphasis"><i class="bi bi-box-seam"></i></h1>
+                                <p class="fs-5 fw-medium text-light-emphasis">Return within 14 days</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card border-0 h-100 bg-transparent">
+                            <div class="card-body text-center">
+                                <h1 class="display-3 text-secondary-emphasis"><i class="bi bi-chat-right-dots"></i></h1>
+                                <p class="fs-5 fw-medium text-light-emphasis">Support 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Customer-Care [END] -->
+        <!-- contact us [START] -->
+         <section class="section-contact-us py-7">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-6">
+                        <div class="card border-0 bg-transparent">
+                            <div class="card-body py-4">
+                                <form class="row g-3 needs-validation" novalidate>
+                                    <div class="col-md-12">
+                                        <label for="validationCustom01" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="validationCustom01" placeholder="" required>
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <label for="validationCustom02" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="validationCustom02" placeholder="" required>
+                                        <div class="valid-feedback">
+                                        Looks good!
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="validationCustom03" class="form-label">Telephone</label>
+                                        <input type="tel" class="form-control" id="validationCustom03" placeholder="" required>
+                                        <div class="invalid-feedback">
+                                            Please provide a valid city.
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <label for="validationTextarea" class="form-label">Message</label>
+                                        <textarea class="form-control" id="validationTextarea" placeholder="" required></textarea>
+                                        <div class="invalid-feedback">
+                                            Please enter a message in the textarea.
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-12">
+                                    <button class="btn btn-primary" type="submit">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card border-0 bg-transparent">
+                            <div class="card-body py-4">
+                                <h1 class="display-5 fw-bold">Contact <span class="text-warning">Us</span> </h1>
+                                <p class="w-auto my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium accusantium doloremque!</p>
+                                <p><span class="badge p-2 fs-6 text-bg-secondary rounded-circle"><i class="bi bi-telephone"></i></span> +855 : 088-9320-525</p>
+                                <p><span class="badge p-2 fs-6 text-bg-secondary rounded-circle"><i class="bi bi-envelope"></i></span> example@gmail.com</p>
+                                <p><span class="badge p-2 fs-6 text-bg-secondary rounded-circle"><i class="bi bi-geo-alt-fill"></i></span> St K4A , Sen sok, Phnom Penh</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- contact us [END] -->
+    </main>
+    
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-center">
+                        <h3 class="text-light">About Us</h3>
+                        <ul class="navbar-nav flex-column small text-secondary">
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" aria-current="page" href="#">Our Shops</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Artists</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Local Giving</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Press</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center">
+                        <h3 class="text-light">Get Help</h3>
+                        <ul class="navbar-nav flex-column small text-secondary">
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" aria-current="page" href="#">Delivery Information</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Terms & Conditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Returns & Refunds</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Privacy Notice</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Shopping FAQs</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center">
+                        <h3 class="text-light">Customer Care</h3>
+                        <ul class="navbar-nav flex-column small text-secondary">
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" aria-current="page" href="#">FAQs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Store Locator</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Returns</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Shipping Information</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ps-0" href="#">Wholesale</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/tiny-slider/tiny-slider.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

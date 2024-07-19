@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.rounded-top-right{
+    border-radius: 2rem 2px 2rem 2rem !important;
+}
+.rounded-bottom-right{
+    border-radius: 2rem 2rem 2px 2rem !important;
+}
+/* == Navbar-brand */
+.navbar-brand {
+    font-size: 72px;
+    background: -webkit-linear-gradient(40deg, #F17300, #fb8b24);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+/* == search bar [START] */
+.search .form-control{
+    box-shadow: none !important;
+    vertical-align: middle !important;
+}
+.search .form-control ~ .search-card{
+    display: none !important;
+}
+.search .form-control:focus ~ .search-card{
+    display: block !important;
+}
+/* == search bar [END] */
+/* == navbar-scroll [START] */
+.navbar-scroll{
+    transition: .4s ease-in;
+}
+.navbar-scroll.bg-scroll {
+    transition: .1s ease-in;
+    background-color: #fdfdfdb7 !important;
+    backdrop-filter: blur(8px);
+    -moz-backdrop-filter: blur(8px);
+}
+/* == navbar-scroll [END] */
+
